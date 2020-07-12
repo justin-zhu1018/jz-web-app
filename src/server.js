@@ -32,6 +32,7 @@ app.use(morgan("tiny"));
 app.use("/api", routes);
 
 if (process.env.NODE_ENV === "production") {
+  console.log("Env: ", process.env.NODE_ENV, process.env.MONGODB_URI);
   app.use(express.static("/build"));
 }
 

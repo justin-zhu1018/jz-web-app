@@ -20,6 +20,7 @@
   },
   "scripts": {
     "start": "node src/server.js",
+    "heroku-postbuild": "npm run build",
     "dev": "concurrently -n 'server,client' -c'red,blue' \"nodemon src/server.js\" \"react-scripts start\"",
     "build": "react-scripts build",
     "test": "react-scripts test",

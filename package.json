@@ -23,7 +23,7 @@
     "dev": "concurrently -n 'server,client' -c'red,blue' \"nodemon src/server.js\" \"react-scripts start\"",
     "build": "react-scripts build",
     "herokuBuild": "cd src && npm run build",
-    "install": "cd src && npm install",
+    "install": "npm install",
     "heroku-postbuild": "npm run install && npm run herokuBuild",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

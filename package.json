@@ -21,7 +21,7 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "concurrently -n 'server,client' -c'red,blue' \"nodemon src/server.js\" \"react-scripts start\"",
-    "build": "cd src && npm run build",
+    "build": "npm run build",
     "install-client": "cd src && npm install",
     "heroku-postbuild": "npm run install-client && npm run build",
     "test": "react-scripts test",

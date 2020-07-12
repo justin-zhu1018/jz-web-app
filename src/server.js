@@ -37,6 +37,3 @@ if (process.env.NODE_ENV === "production") {
 }
 
 app.listen(PORT, console.log(`SERVER IS STARTING AT ${PORT}`));
-
-//package.json script pasted
-// "start": "react-scripts start",

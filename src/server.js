@@ -5,12 +5,13 @@ const morgan = require("morgan");
 const path = require("path");
 
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8080; //step 1
 
 const routes = require("./routes/api");
 
 //connect mongoDB with mongoose
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/flazey", {
+  //step 2
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
@@ -31,8 +32,8 @@ app.use(morgan("tiny"));
 //Where I determine which route to put the data in (right now the data is in localhost:8080/)
 app.use("/api", routes);
 
+//step 3
 if (process.env.NODE_ENV === "production") {
-  console.log("Env: ", process.env.NODE_ENV, process.env.MONGODB_URI);
   app.use(express.static("/build"));
 }
 

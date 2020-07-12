@@ -19,9 +19,11 @@
     "reactstrap": "^8.5.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
     "dev": "concurrently -n 'server,client' -c'red,blue' \"nodemon src/server.js\" \"react-scripts start\"",
-    "build": "react-scripts build",
+    "build": "cd src && npm run build",
+    "install-client": "cd src && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

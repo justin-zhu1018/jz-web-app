@@ -19,7 +19,7 @@
     "reactstrap": "^8.5.1"
   },
   "scripts": {
-    "start": "node /server.js",
+    "start": "node src/server.js",
     "dev": "concurrently -n 'server,client' -c'red,blue' \"nodemon src/server.js\" \"react-scripts start\"",
     "build": "react-scripts build",
     "test": "react-scripts test",

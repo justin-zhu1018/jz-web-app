@@ -29,7 +29,7 @@ app.use(express.urlencoded({ extended: false }));
 //HTTP request logger
 app.use(morgan("tiny"));
 
-//Where I determine which route to put the data in (right now the data is in localhost:8080/)
+//Where I determine which route to put the data in (right now the data is in localhost:8080/api)
 app.use("/api", routes);
 
 //step 3

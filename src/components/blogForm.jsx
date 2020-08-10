@@ -1,6 +1,6 @@
-import React from "react";
-import { Button, Form, FormGroup, Input, Label } from "reactstrap";
-import "./blogForm.css";
+import React from 'react';
+import {Button, Form, FormGroup, Input, Label} from 'reactstrap';
+import './blogForm.css';
 
 export default function BlogForm(props) {
   return (
@@ -26,7 +26,7 @@ export default function BlogForm(props) {
           />
         </FormGroup>
         <Button color="primary" onClick={props.handleData}>
-          Test
+          Post
         </Button>
       </Form>
     </div>

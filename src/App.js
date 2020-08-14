@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
-import SiteNavbar from './components/siteNavBar';
+import SiteNavbar from './components/siteNavbar';
 import StickyFooter from './components/stickyFooter';
 import BlogPage from './pages/blogPage.js';
 import AboutPage from './pages/aboutPage.js';

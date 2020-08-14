@@ -31,7 +31,7 @@ export default function SiteNavbar(props) {
             </NavItem>
             <NavItem>
               <NavLink href="https://github.com/justin-zhu1018/jz-web-app">
-                Visit my GitHub!
+                GitHub
               </NavLink>
             </NavItem>
           </Nav>

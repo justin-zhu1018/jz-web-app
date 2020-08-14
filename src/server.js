@@ -37,8 +37,16 @@ if (process.env.NODE_ENV === 'production') {
   app.use(express.static('./build'));
 }
 
+// app.get('/blog', (request, response) => {
+//   response.sendFile(path.join(__dirname, '../build', 'index.html'));
+// });
+
+// app.get('/about-me', (request, response) => {
+//   response.sendFile(path.join(__dirname, '../build', 'index.html'));
+// });
+
 app.get('*', (request, response) => {
-  response.sendFile(path.join(__dirname, './build', 'index.html'));
+  response.sendFile(path.join(__dirname, '../build', 'index.html'));
 });
 
 app.listen(PORT, console.log(`SERVER IS STARTING AT ${PORT}`));

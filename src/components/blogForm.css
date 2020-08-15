@@ -1,16 +1,6 @@
 .form-wrapper {
-  padding: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 500px;
-}
-
-#blogForm-button {
-  float: right;
-  background-color: #a9e3fd;
-  border-color: #7ad0f8;
-  color: black;
-}
-
-#blogForm-button:hover:enabled {
-  background-color: #bee9fd;
-  border-color: #65caf8;
 }

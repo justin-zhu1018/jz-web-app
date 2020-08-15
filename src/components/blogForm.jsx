@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button, Form, FormGroup, Input, Label} from 'reactstrap';
+import {Form, FormGroup, Input, Label} from 'reactstrap';
 import './blogForm.css';
 
 export default function BlogForm(props) {
@@ -29,9 +29,6 @@ export default function BlogForm(props) {
             }}
           />
         </FormGroup>
-        <Button id="blogForm-button" onClick={props.handleData}>
-          Post
-        </Button>
       </Form>
     </div>
   );

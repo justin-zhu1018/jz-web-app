@@ -22,3 +22,14 @@
   margin-top: 2vh;
   width: 100%;
 }
+
+#blogForm-button {
+  background-color: #a9e3fd;
+  border-color: #7ad0f8;
+  color: black;
+}
+
+#blogForm-button:hover:enabled {
+  background-color: #bee9fd;
+  border-color: #65caf8;
+}

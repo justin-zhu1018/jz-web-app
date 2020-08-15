@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import BlogForm from '../components/blogForm';
-import {Card, CardTitle, CardText, Jumbotron} from 'reactstrap';
+import {Button, Card, CardTitle, CardText, Jumbotron} from 'reactstrap';
 import './blogPage.css';
 const axios = require('axios');
 
@@ -45,6 +45,10 @@ export default class BlogPost extends Component {
   updateBody = (e) => {
     // console.log("update data", e);
     this.setState({body: e});
+  };
+
+  isFilled = () => {
+    return this.state.title !== '' && this.state.body !== '';
   };
 
   handleData = (event) => {
@@ -99,6 +103,13 @@ export default class BlogPost extends Component {
             updateBody={this.updateBody}
             handleData={this.handleData}
           />
+          <Button
+            id="blogForm-button"
+            disabled={!this.isFilled()}
+            onClick={this.handleData}
+          >
+            Post
+          </Button>
           {this.displayBlogPosts(this.state.posts)}
         </div>
       </div>

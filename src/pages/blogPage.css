@@ -68,9 +68,3 @@
   background-color: #bee9fd;
   border-color: #65caf8;
 }
-
-.card-wrapper {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}

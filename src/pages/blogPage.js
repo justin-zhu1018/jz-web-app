@@ -1,13 +1,6 @@
 import React, {Component} from 'react';
 import BlogForm from '../components/blogForm';
-import {
-  Button,
-  Card,
-  CardTitle,
-  CardText,
-  Container,
-  Jumbotron,
-} from 'reactstrap';
+import {Button, Card, CardTitle, CardText, Jumbotron} from 'reactstrap';
 import './blogPage.css';
 const axios = require('axios');
 

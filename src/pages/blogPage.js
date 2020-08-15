@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import BlogForm from '../components/blogForm';
 import {Card, CardTitle, CardText, Jumbotron} from 'reactstrap';
-import './pages.css';
+import './blogPage.css';
 const axios = require('axios');
 
 export default class BlogPost extends Component {
@@ -79,28 +79,28 @@ export default class BlogPost extends Component {
   };
   render() {
     return (
-      <div className="page-css">
-        <div className="jumbotron-css">
-          <Jumbotron>
-            <h1>The Blog</h1>
-            <p className="lead">
-              This is my only somewhat complete page on the website!
-            </p>
-            <hr className="my-2" />
-            <p>
-              I was able to do some MERN stack magic and use MongoDB to make
-              this blog post page!
-            </p>
-          </Jumbotron>
+      <div className="blogPage">
+        <Jumbotron className="jumbotron-spacing">
+          <h1>The Blog</h1>
+          <p className="lead">
+            This is my only somewhat complete page on the website!
+          </p>
+          <hr className="my-2" />
+          <p>
+            I was able to do some MERN stack magic and use MongoDB to make this
+            blog post page!
+          </p>
+        </Jumbotron>
+        <div className="blog-form-wrapper">
+          <BlogForm
+            title={this.state.title}
+            body={this.state.body}
+            updateTitle={this.updateTitle}
+            updateBody={this.updateBody}
+            handleData={this.handleData}
+          />
+          {this.displayBlogPosts(this.state.posts)}
         </div>
-        <BlogForm
-          title={this.state.title}
-          body={this.state.body}
-          updateTitle={this.updateTitle}
-          updateBody={this.updateBody}
-          handleData={this.handleData}
-        />
-        <div>{this.displayBlogPosts(this.state.posts)}</div>
       </div>
     );
   }

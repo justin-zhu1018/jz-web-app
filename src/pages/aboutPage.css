@@ -1,0 +1,9 @@
+.aboutPage {
+  /* background-color: #282c34; */
+  min-height: 91vh;
+  flex-direction: column;
+}
+
+.aboutPage .jumbotron-spacing {
+  margin-top: 1vh;
+}

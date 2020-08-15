@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
 import {Jumbotron} from 'reactstrap';
+import './homePage.css';
 
 export default class HomePage extends Component {
   render() {
     return (
-      <div className="page-noflex">
-        <Jumbotron>
+      <div className="homePage">
+        <Jumbotron className="jumbotron-spacing">
           <h1>Welcome!</h1>
           <p>
             This is my website where I show off some cool stuff. It's currently

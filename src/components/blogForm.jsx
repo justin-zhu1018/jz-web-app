@@ -7,7 +7,9 @@ export default function BlogForm(props) {
     <div className="form-wrapper">
       <Form>
         <FormGroup>
-          <Label>Title</Label>
+          <Label>
+            <b>Title</b>
+          </Label>
           <Input
             value={props.title}
             onChange={(e) => {
@@ -16,7 +18,9 @@ export default function BlogForm(props) {
           />
         </FormGroup>
         <FormGroup>
-          <Label>Body</Label>
+          <Label>
+            <b>Body</b>
+          </Label>
           <Input
             type="textarea"
             value={props.body}
@@ -25,7 +29,7 @@ export default function BlogForm(props) {
             }}
           />
         </FormGroup>
-        <Button color="primary" onClick={props.handleData}>
+        <Button id="blogForm-button" onClick={props.handleData}>
           Post
         </Button>
       </Form>

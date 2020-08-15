@@ -16,22 +16,27 @@ export default function SiteNavbar(props) {
   const toggleNavbar = () => setCollapsed(!collapsed);
   return (
     <div>
-      <Navbar color="faded" light>
+      <Navbar color="dark" dark>
         <NavbarBrand href="/" className="mr-auto">
-          jz-web-app
+          {/* <p>jz-web-app</p> */}
+          <div className="title-text">jz-web-app</div>
         </NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem>
-              <NavLink href="/about-me/">About Me</NavLink>
+              <NavLink href="/about-me/">
+                <div className="list-text">About Me</div>
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/blog/">Blog Page</NavLink>
+              <NavLink href="/blog/">
+                <div className="list-text">Blog Page</div>
+              </NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="https://github.com/justin-zhu1018/jz-web-app">
-                GitHub
+                <div className="list-text">GitHub</div>
               </NavLink>
             </NavItem>
           </Nav>

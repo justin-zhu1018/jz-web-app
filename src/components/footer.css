@@ -1,0 +1,29 @@
+.wrapper-pog {
+  width: 100%;
+  outline: 1px solid white;
+}
+
+.footer-text p {
+  color: whitesmoke;
+}
+
+.footer-text b {
+  color: #a9e3fd;
+}
+
+.footer-text a {
+  color: #adacac;
+  text-decoration: none;
+}
+
+.footer-text a.headerLink {
+  color: white !important;
+}
+.footer-bottom {
+  background-color: #282c34;
+  color: white;
+  height: 25px;
+  width: 100%;
+  text-align: center;
+  padding: 0px;
+}

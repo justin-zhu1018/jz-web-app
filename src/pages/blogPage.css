@@ -1,0 +1,24 @@
+.blogPage {
+  min-height: 91vh;
+  flex-direction: column;
+}
+
+.blogPage .card {
+  width: 50vh;
+  margin: 10px;
+}
+
+.blogPage .jumbotron-spacing {
+  margin-top: 1vh;
+}
+
+.blogPage .blog-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e9ecef;
+  padding: 2vh;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+  width: 100%;
+}

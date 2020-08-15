@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import SiteNavbar from './components/siteNavbar.js';
-import StickyFooter from './components/stickyFooter.js';
+import StickyFooter from './components/footer.js';
 import BlogPage from './pages/blogPage.js';
 import AboutPage from './pages/aboutPage.js';
 import HomePage from './pages/homePage.js';

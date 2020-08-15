@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import SiteNavbar from './components/siteNavbar.js';
-import StickyFooter from './components/footer.js';
+import Footer from './components/footer';
 import BlogPage from './pages/blogPage.js';
 import AboutPage from './pages/aboutPage.js';
 import HomePage from './pages/homePage.js';
@@ -23,7 +23,7 @@ class App extends Component {
             <Route path="/blog/" exact component={BlogPage} />
             <Route path="/about-me/" exact component={AboutPage} />
           </Switch>
-          <StickyFooter />
+          <Footer />
         </div>
       </Router>
     );

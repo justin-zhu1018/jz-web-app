@@ -1,6 +1,13 @@
 import React, {Component} from 'react';
 import BlogForm from '../components/blogForm';
-import {Button, Card, CardTitle, CardText, Jumbotron} from 'reactstrap';
+import {
+  Button,
+  Card,
+  CardTitle,
+  CardText,
+  Container,
+  Jumbotron,
+} from 'reactstrap';
 import './blogPage.css';
 const axios = require('axios');
 
@@ -91,11 +98,11 @@ export default class BlogPost extends Component {
           </p>
           <hr className="my-2" />
           <p>
-            I was able to do some MERN stack magic and use MongoDB to make this
-            blog post page!
+            I was able to do some MERN stack magic to make this blog post page.
+            Leave a comment below (if you feel like it) :)
           </p>
         </Jumbotron>
-        <div className="blog-form-wrapper">
+        <div className="form-container">
           <BlogForm
             title={this.state.title}
             body={this.state.body}
@@ -110,6 +117,8 @@ export default class BlogPost extends Component {
           >
             Post
           </Button>
+        </div>
+        <div className="response-container">
           {this.displayBlogPosts(this.state.posts)}
         </div>
       </div>

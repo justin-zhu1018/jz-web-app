@@ -7,6 +7,7 @@ export default function AboutPage(props) {
     <div className="aboutPage">
       <Jumbotron className="jumbotron-spacing">
         <h1>About me!</h1>
+        <hr className="my-2" />
         <p>
           I don't really have anything here yet, but yeah come back later! :)
         </p>

@@ -1,0 +1,19 @@
+.errorPage {
+  /* background-color: #282c34; */
+  min-height: 90vh;
+}
+
+.errorPage .jumbotron-spacing {
+  margin-top: 1vh;
+}
+
+.errorPage .container {
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
+  padding: 20px;
+  background: #eaeaeb;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}

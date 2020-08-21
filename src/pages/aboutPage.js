@@ -84,7 +84,7 @@ export default class AboutPage extends Component {
               <p className="text-contents margin-end-text">{aboutContents2b}</p>
             </div>
             <div>
-              <h3>The Second Summer of my College Career was Amazing.</h3>
+              <h3>The Second Summer of My College Career Was Amazing.</h3>
               <hr className="heading__hr" />
               <p className="text-contents">{aboutContents3a}</p>
               <p className="text-contents">{aboutContents3b}</p>
@@ -92,7 +92,7 @@ export default class AboutPage extends Component {
               <p className="text-contents margin-end-text">{aboutContents3d}</p>
             </div>
             <div>
-              <h3>To be continued...</h3>
+              <h3>To Be Continued...</h3>
               <hr className="heading__hr" />
               <p className="text-contents">{aboutContents4a}</p>
             </div>

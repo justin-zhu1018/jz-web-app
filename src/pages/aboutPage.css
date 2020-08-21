@@ -1,9 +1,75 @@
 .aboutPage {
   /* background-color: #282c34; */
-  min-height: 91vh;
+  min-height: 100vh;
   flex-direction: column;
 }
 
 .aboutPage .jumbotron-spacing {
   margin-top: 1vh;
+}
+
+.aboutPage .content-container {
+  margin: 30px auto;
+  width: 100%;
+  padding: 3%;
+  background: #343a40;
+  /* align-items: center; */
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.aboutPage .text-container {
+  background: #eaeaeb;
+  padding: 30px;
+  padding-bottom: 10px;
+}
+
+.aboutPage .center-box {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  /* max-width: 1000px; */
+  width: 100%;
+  padding: 10px 0;
+  line-height: 1.6;
+  /* background: #eaeaeb; */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.centered {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  border: 3px solid red;
+  padding: 10px;
+  /* align-items: center;
+  display: flex;
+  flex-direction: row; */
+}
+
+.centered-icons {
+  /* display: block; */
+  margin: auto;
+  border: 2px solid blue;
+  padding: 10px;
+}
+
+.heading__hr {
+  height: 1px;
+  border: none;
+  background: #696969;
+}
+
+.margin-end-text {
+  margin-bottom: 30px;
+}
+
+.text-contents {
+  /* Nothing here for now.. maybe some text styling later */
+}
+
+.contain-end {
+  align-items: right;
+  text-align: right;
 }

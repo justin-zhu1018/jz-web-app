@@ -7,3 +7,7 @@
 .homePage .jumbotron-spacing {
   margin-top: 1vh;
 }
+
+.homePage .prog-padding {
+  padding: 10px;
+}

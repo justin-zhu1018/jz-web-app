@@ -1,13 +1,13 @@
 .container {
   margin: 0 auto;
-  max-width: 1000px;
+  /* max-width: 1000px; */
   width: 100%;
   padding: 0 15px;
   box-sizing: border-box;
 }
 
 .footer {
-  padding: 30px 0;
+  padding: 25px 0;
   line-height: 1.6;
   background: #343a40;
 }
@@ -44,7 +44,7 @@
 .footer__section {
   box-sizing: border-box;
   width: 50%;
-  padding: 10px 0;
+  padding: 5px 0;
   flex-shrink: 0;
 }
 
@@ -60,7 +60,7 @@
   color: #aaaaaa;
   text-decoration: none;
   display: block;
-  padding: 3px 15px;
+  padding: 4px 15px;
 }
 
 .footer__link:hover {

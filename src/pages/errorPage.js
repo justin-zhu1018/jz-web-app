@@ -14,9 +14,14 @@ export default class ErrorPage extends Component {
             <a href="/">safety</a>!
           </p>
         </Jumbotron>
-        <div className="container">
-          {/* <h1>You can have a picture of a doggo</h1> */}
-          <h1>kthnxbyeeee :)</h1>
+        <div className="error-container">
+          <h4>
+            ERROR 404: This is where every invalid page gets redirected to!
+          </h4>
+          <p>
+            Nothing special, but gets the job done. Now go back to the other
+            pages that I worked hard on. :)
+          </p>
         </div>
       </div>
     );

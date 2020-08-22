@@ -5,21 +5,22 @@
 }
 
 .aboutPage .jumbotron-spacing {
-  margin-top: 1vh;
+  margin-top: 7vh;
 }
 
 .aboutPage .content-container {
   margin: 30px auto;
   width: 100%;
   padding: 3%;
-  background: #343a40;
+  background: #eaeaeb;
   /* align-items: center; */
   /* display: flex; */
   /* flex-direction: column; */
 }
 
 .aboutPage .text-container {
-  background: #eaeaeb;
+  background: #fdfdfd;
+  border: 1px dashed rgb(196, 196, 196);
   padding: 30px;
   padding-bottom: 10px;
 }
@@ -56,6 +57,12 @@
 }
 
 .heading__hr {
+  height: 1px;
+  border: none;
+  background: #696969;
+}
+
+.heading__hr-end {
   height: 1px;
   border: none;
   background: #696969;

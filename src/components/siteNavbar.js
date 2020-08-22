@@ -16,7 +16,7 @@ export default function SiteNavbar(props) {
   const toggleNavbar = () => setCollapsed(!collapsed);
   return (
     <div>
-      <Navbar color="dark" dark>
+      <Navbar color="dark" dark className="fixed-top">
         <NavbarBrand href="/" className="mr-auto">
           {/* <p>jz-web-app</p> */}
           <div className="title-text">jz-web-app</div>
@@ -31,7 +31,12 @@ export default function SiteNavbar(props) {
             </NavItem>
             <NavItem>
               <NavLink href="/blog/">
-                <div className="list-text">Blog Page</div>
+                <div className="list-text">The Blog</div>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/error/">
+                <div className="list-text">Error Page</div>
               </NavLink>
             </NavItem>
             <NavItem>

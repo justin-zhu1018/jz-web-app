@@ -5,9 +5,30 @@
 }
 
 .homePage .jumbotron-spacing {
-  margin-top: 1vh;
+  margin-top: 7vh;
 }
 
 .homePage .prog-padding {
   padding: 10px;
+  margin: 15px;
+}
+
+.homePage .progress-header-text-container {
+  /* border-bottom: 1px solid black; */
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.homePage .content-container {
+  margin: 30px auto;
+  width: 100%;
+  padding: 3%;
+  background: #eaeaeb;
+  /* align-items: center; */
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.progress-bg-color {
+  background-color: rgb(248, 248, 248) !important;
 }

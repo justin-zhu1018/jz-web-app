@@ -97,7 +97,7 @@ export default class AboutPage extends Component {
               <p className="text-contents">{aboutContents4a}</p>
             </div>
             <div>
-              <hr className="heading__hr" />
+              <hr className="heading__hr-end" />
               <p className="contain-end">{aboutEnd}</p>
             </div>
           </div>

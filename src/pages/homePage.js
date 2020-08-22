@@ -14,16 +14,30 @@ export default class HomePage extends Component {
             skills. It also acts as a place for me to store some of my past
             projects and a way to share my story!
           </p>
-          <p>Feel free to check out the Blog Page and About Me!</p>
+          <p>Check out my different pages and enjoy your stay!</p>
         </Jumbotron>
-        <div className="container">
+        <div className="content-container">
+          <div className="progress-header-text-container">
+            <h4>Justin's Amazing Progress Bars</h4>
+            <hr className="my-2" />
+          </div>
           <div className="text-center prog-padding">
             <b>School Progress</b>
-            <Progress color="primary" animated value={(2 / 3.5) * 100} />
+            <Progress
+              className="progress-bg-color"
+              color="primary"
+              animated
+              value={(2 / 3.5) * 100}
+            />
           </div>
           <div className="text-center prog-padding">
             <b>Brain Capacity</b>
-            <Progress color="warning" animated value={1} />
+            <Progress
+              className="progress-bg-color"
+              color="warning"
+              animated
+              value={1}
+            />
           </div>
           <div className="text-center prog-padding">
             <b>
@@ -33,7 +47,12 @@ export default class HomePage extends Component {
               </span>
               ... oui.)
             </b>
-            <Progress color="danger" animated value={100} />
+            <Progress
+              className="progress-bg-color"
+              color="danger"
+              animated
+              value={100}
+            />
           </div>
         </div>
       </div>

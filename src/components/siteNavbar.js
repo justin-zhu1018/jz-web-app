@@ -18,7 +18,6 @@ export default function SiteNavbar(props) {
     <div>
       <Navbar color="dark" dark className="fixed-top">
         <NavbarBrand href="/" className="mr-auto">
-          {/* <p>jz-web-app</p> */}
           <div className="title-text">jz-web-app</div>
         </NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />

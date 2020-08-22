@@ -11,7 +11,7 @@ export default class HomePage extends Component {
           <hr className="my-2" />
           <p>
             This is my website where I practice my full stack development
-            skills. It also acts as a place for me to store some of my past
+            skills. It also acts as a place for me to showcase some of my past
             projects and a way to share my story!
           </p>
           <p>Check out my different pages and enjoy your stay!</p>

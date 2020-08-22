@@ -73,7 +73,7 @@ export default class BlogPost extends Component {
       return null;
     }
     return posts.map((post, index) => (
-      <Card body key={index}>
+      <Card body key={index} className="mx-auto">
         <CardTitle>
           <strong>{post.title}</strong>
         </CardTitle>
@@ -86,33 +86,34 @@ export default class BlogPost extends Component {
       <div className="blogPage">
         <Jumbotron className="jumbotron-spacing">
           <h1>The Blog</h1>
-          <p className="lead">
-            This is my only somewhat complete page on the website!
-          </p>
+          <p className="lead">Made with MERN stack magic!</p>
           <hr className="my-2" />
           <p>
-            I was able to do some MERN stack magic to make this blog post page.
-            Leave a comment below (if you feel like it) :)
+            Not the most responsive design, looks like the Reactstrap Card
+            component sizes are constant.
           </p>
         </Jumbotron>
-        <div className="form-container">
-          <BlogForm
-            title={this.state.title}
-            body={this.state.body}
-            updateTitle={this.updateTitle}
-            updateBody={this.updateBody}
-            handleData={this.handleData}
-          />
-          <Button
-            id="blogForm-button"
-            disabled={!this.isFilled()}
-            onClick={this.handleData}
-          >
-            Post
-          </Button>
-        </div>
-        <div className="response-container">
-          {this.displayBlogPosts(this.state.posts)}
+        {/* <div className="form-container"> */}
+        <div className="content-container">
+          <div className="component-container">
+            <BlogForm
+              title={this.state.title}
+              body={this.state.body}
+              updateTitle={this.updateTitle}
+              updateBody={this.updateBody}
+              handleData={this.handleData}
+            />
+            <div className="post-button spacing-below-button">
+              <Button
+                id="blogForm-button"
+                disabled={!this.isFilled()}
+                onClick={this.handleData}
+              >
+                Post
+              </Button>
+            </div>
+            {this.displayBlogPosts(this.state.posts)}
+          </div>
         </div>
       </div>
     );

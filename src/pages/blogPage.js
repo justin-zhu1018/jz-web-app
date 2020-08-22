@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import BlogForm from '../components/blogForm';
-import {Button, Card, CardTitle, CardText, Jumbotron} from 'reactstrap';
+import BlogCard from '../components/blogCard';
+import {Button, Jumbotron} from 'reactstrap';
 import './blogPage.css';
 const axios = require('axios');
 
@@ -73,12 +74,7 @@ export default class BlogPost extends Component {
       return null;
     }
     return posts.map((post, index) => (
-      <Card body key={index} className="mx-auto">
-        <CardTitle>
-          <strong>{post.title}</strong>
-        </CardTitle>
-        <CardText>{post.body}</CardText>
-      </Card>
+      <BlogCard key={index} title={post.title} body={post.body} />
     ));
   };
   render() {
@@ -89,11 +85,11 @@ export default class BlogPost extends Component {
           <p className="lead">Made with MERN stack magic!</p>
           <hr className="my-2" />
           <p>
-            Not the most responsive design, looks like the Reactstrap Card
-            component sizes are constant.
+            Responsive design, like everything else on this website. Custom CSS
+            cards for posts because Reactstrap ones were not responsive. Button
+            is disabled until both inputs in the form are filled in.
           </p>
         </Jumbotron>
-        {/* <div className="form-container"> */}
         <div className="content-container">
           <div className="component-container">
             <BlogForm

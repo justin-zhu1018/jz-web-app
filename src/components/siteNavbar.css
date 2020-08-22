@@ -10,3 +10,17 @@
 .list-text {
   color: white;
 }
+
+.nav__item {
+  padding: 2px;
+  margin: 2px 0;
+  padding-left: 10px;
+  border-bottom: 1px solid #494e53;
+  width: 99.5%;
+  /* margin-left: 10px; */
+}
+
+.nav__item:hover {
+  color: #cccccc;
+  background: rgba(255, 255, 255, 0.15);
+}

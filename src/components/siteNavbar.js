@@ -24,24 +24,24 @@ export default function SiteNavbar(props) {
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
-            <NavItem>
+            <NavItem className="nav__item">
               <NavLink href="/about-me/">
                 <div className="list-text">About Me</div>
               </NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem className="nav__item">
               <NavLink href="/blog/">
                 <div className="list-text">The Blog</div>
               </NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem className="nav__item">
               <NavLink href="/error/">
                 <div className="list-text">Error Page</div>
               </NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem className="nav__item">
               <NavLink href="https://github.com/justin-zhu1018/jz-web-app">
-                <div className="list-text">GitHub</div>
+                <div className="list-text">GitHub Repository Redirect</div>
               </NavLink>
             </NavItem>
           </Nav>

@@ -13,6 +13,11 @@
   margin: 15px;
 }
 
+.homePage .text-padding {
+  padding: 4px;
+  /* outline: black solid 1px; */
+}
+
 .homePage .progress-header-text-container {
   /* border-bottom: 1px solid black; */
   text-align: center;

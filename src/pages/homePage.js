@@ -22,7 +22,9 @@ export default class HomePage extends Component {
             <hr className="my-2" />
           </div>
           <div className="text-center prog-padding">
-            <b>School Progress</b>
+            <div className="text-padding">
+              <b>School Progress</b>
+            </div>
             <Progress
               className="progress-bg-color"
               color="primary"
@@ -31,7 +33,9 @@ export default class HomePage extends Component {
             />
           </div>
           <div className="text-center prog-padding">
-            <b>Brain Capacity</b>
+            <div className="text-padding">
+              <b>Brain Capacity</b>
+            </div>
             <Progress
               className="progress-bg-color"
               color="warning"
@@ -40,13 +44,15 @@ export default class HomePage extends Component {
             />
           </div>
           <div className="text-center prog-padding">
-            <b>
-              Pain (Obviously I'm referring to my love for{' '}
-              <span role="img" aria-labelledby="jsx-a11y/accessible-emoji">
-                🍞
-              </span>
-              ... oui.)
-            </b>
+            <div className="text-padding">
+              <b>
+                Pain (Obviously I'm referring to my love for{' '}
+                <span role="img" aria-labelledby="jsx-a11y/accessible-emoji">
+                  🍞
+                </span>
+                ... oui)
+              </b>
+            </div>
             <Progress
               className="progress-bg-color"
               color="danger"

@@ -6,7 +6,8 @@ export default class ErrorPage extends Component {
   render() {
     return (
       <div className="errorPage">
-        <Jumbotron className="jumbotron-spacing">
+        <div className="spacing-div" />
+        <Jumbotron className="jumbotron-position">
           <h1>Oops! </h1>
           <hr className="my-2" />
           <p>
@@ -14,6 +15,7 @@ export default class ErrorPage extends Component {
             <a href="/">safety</a>!
           </p>
         </Jumbotron>
+        <div className="spacing-div" />
         <div className="error-container">
           <h4>
             ERROR 404: This is where every invalid page gets redirected to!

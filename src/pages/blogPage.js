@@ -80,7 +80,8 @@ export default class BlogPost extends Component {
   render() {
     return (
       <div className="blogPage">
-        <Jumbotron className="jumbotron-spacing">
+        <div className="spacing-div" />
+        <Jumbotron className="jumbotron-position">
           <h1>The Blog</h1>
           <p className="lead">Made with MERN stack magic!</p>
           <hr className="my-2" />
@@ -90,6 +91,7 @@ export default class BlogPost extends Component {
             is disabled until both inputs in the form are filled in.
           </p>
         </Jumbotron>
+        <div className="spacing-div" />
         <div className="content-container">
           <div className="component-container">
             <BlogForm
@@ -111,6 +113,7 @@ export default class BlogPost extends Component {
             {this.displayBlogPosts(this.state.posts)}
           </div>
         </div>
+        <div className="spacing-div" />
       </div>
     );
   }

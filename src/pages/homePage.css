@@ -1,11 +1,12 @@
 .homePage {
   /* background-color: #282c34; */
+  position: relative;
   min-height: 91vh;
-  flex-direction: column;
 }
 
-.homePage .jumbotron-spacing {
-  margin-top: 7vh;
+.homePage .jumbotron-position {
+  position: relative;
+  margin: auto;
 }
 
 .homePage .prog-padding {
@@ -25,7 +26,7 @@
 }
 
 .homePage .content-container {
-  margin: 30px auto;
+  margin: auto;
   width: 100%;
   padding: 3%;
   background: #eaeaeb;
@@ -51,26 +52,4 @@
     #e5a823 78%,
     #ffb718 100%
   );
-}
-
-.legacy-color-container {
-  outline: #a9e3fd solid 1px;
-  width: 100%;
-  height: 50px;
-  margin: 0;
-  background-color: #eaeaeb;
-}
-
-.legacy-color {
-  /* outline: 1px solid black; */
-  width: 100%;
-  height: 44%;
-  background-color: #a9e3fd;
-  text-align: center;
-}
-
-.legacy-color-sammich {
-  width: 100%;
-  height: 28%;
-  background-color: #eaeaeb;
 }

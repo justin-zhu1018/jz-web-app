@@ -3,8 +3,9 @@
   min-height: 91vh;
 }
 
-.errorPage .jumbotron-spacing {
-  margin-top: 7vh;
+.errorPage .jumbotron-position {
+  position: relative;
+  margin: auto;
 }
 
 .errorPage .error-container {

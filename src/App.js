@@ -19,6 +19,7 @@ class App extends Component {
       <Router>
         <div>
           <SiteNavbar />
+          <div className="navbar-fixed-spacing" />
           <Switch>
             <Route path="/" exact component={HomePage} />
             <Route path="/blog/" exact component={BlogPage} />

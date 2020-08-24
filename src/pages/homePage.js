@@ -1,12 +1,14 @@
 import React, {Component} from 'react';
 import {Jumbotron, Progress} from 'reactstrap';
+import LegacyColor from '../components/legacyColor';
 import './homePage.css';
 
 export default class HomePage extends Component {
   render() {
     return (
       <div className="homePage">
-        <Jumbotron className="jumbotron-spacing">
+        <div className="spacing-div" />
+        <Jumbotron className="jumbotron-position">
           <h1>Welcome!</h1>
           <hr className="my-2" />
           <p>
@@ -16,6 +18,7 @@ export default class HomePage extends Component {
           </p>
           <p>Check out my different pages and enjoy your stay!</p>
         </Jumbotron>
+        <div className="spacing-div" />
         <div className="content-container">
           <div className="progress-header-text-container">
             <h4>Justin's Amazing Progress Bars</h4>
@@ -61,18 +64,8 @@ export default class HomePage extends Component {
             />
           </div>
         </div>
-        <div className="legacy-color-container">
-          <div className="legacy-color-sammich" />
-          <div className="legacy-color">
-            <p>
-              A tribute to the legacy font color #a9e3fd{' '}
-              <span role="img" aria-labelledby="jsx-a11y/accessible-emoji">
-                ✊😔
-              </span>
-            </p>
-          </div>
-          <div className="legacy-color-sammich" />
-        </div>
+        <div className="spacing-div" />
+        <LegacyColor />
       </div>
     );
   }

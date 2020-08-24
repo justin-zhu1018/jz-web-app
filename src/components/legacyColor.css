@@ -1,0 +1,21 @@
+.legacy-color-container {
+  outline: #a9e3fd solid 1px;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  background-color: #eaeaeb;
+}
+
+.legacy-color {
+  /* outline: 1px solid black; */
+  width: 100%;
+  height: 44%;
+  background-color: #a9e3fd;
+  text-align: center;
+}
+
+.legacy-color-sammich {
+  width: 100%;
+  height: 28%;
+  background-color: #eaeaeb;
+}

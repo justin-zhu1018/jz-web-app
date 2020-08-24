@@ -35,12 +35,12 @@ export default function SiteNavbar(props) {
             </NavItem>
             <NavItem className="nav__item">
               <NavLink href="/error/">
-                <div className="list-text">Error Page</div>
+                <div className="list-text">Error 404 Page</div>
               </NavLink>
             </NavItem>
             <NavItem className="nav__item">
               <NavLink href="https://github.com/justin-zhu1018/jz-web-app">
-                <div className="list-text">GitHub Repository Redirect</div>
+                <div className="list-text">GitHub Repository</div>
               </NavLink>
             </NavItem>
           </Nav>

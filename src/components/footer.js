@@ -51,25 +51,25 @@ export default function Footer() {
               className="footer__link"
               href="https://docs.google.com/document/d/1MupDO-RMpOXpgkK8nM45wxgFp0mPxeasGWBtKIR3-II/edit?usp=sharing"
             >
-              Link to My Resume
+              My Resume (Google Docs)
             </a>
             <a
               className="footer__link"
               href="https://github.com/justin-zhu1018/flazey-bot"
             >
-              Discord Bot Repository
+              Discord Bot Github Repository
             </a>
             <a
               className="footer__link"
               href="https://docs.google.com/document/d/1hqSKPdD8BYJs1Oqc1AWJoJg5hovUv-IR_NVx9QSqPSo/edit"
             >
-              SCE 2020 Summer Internship Docs
+              SCE 2020 Summer Internship (Google Docs)
             </a>
             <a
               className="footer__link"
               href="https://www.youtube.com/watch?v=pkqGYBR-rgA"
             >
-              Internship Project (Youtube Video)
+              Internship Project (Youtube)
             </a>
           </div>
         </div>

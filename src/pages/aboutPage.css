@@ -4,12 +4,13 @@
   flex-direction: column;
 }
 
-.aboutPage .jumbotron-spacing {
-  margin-top: 7vh;
+.aboutPage .jumbotron-position {
+  position: relative;
+  margin: auto;
 }
 
 .aboutPage .content-container {
-  margin: 30px auto;
+  margin: auto;
   width: 100%;
   padding: 3%;
   background: #eaeaeb;

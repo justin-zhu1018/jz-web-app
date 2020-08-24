@@ -65,11 +65,13 @@ export default class AboutPage extends Component {
     const aboutEnd = 'Made with love by Justin 💟';
     return (
       <div className="aboutPage">
-        <Jumbotron className="jumbotron-spacing">
+        <div className="spacing-div" />
+        <Jumbotron className="jumbotron-position">
           <h1>About me!</h1>
           <hr className="my-2" />
           <p>This is just a little bit about who I am :)</p>
         </Jumbotron>
+        <div className="spacing-div" />
         <div className="content-container">
           <div className="text-container">
             <div>
@@ -102,6 +104,7 @@ export default class AboutPage extends Component {
             </div>
           </div>
         </div>
+        <div className="spacing-div" />
       </div>
     );
   }

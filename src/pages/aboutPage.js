@@ -67,7 +67,7 @@ export default class AboutPage extends Component {
       <div className="aboutPage">
         <div className="spacing-div" />
         <Jumbotron className="jumbotron-position">
-          <h1>About me!</h1>
+          <h1>About Me!</h1>
           <hr className="my-2" />
           <p>This is just a little bit about who I am :)</p>
         </Jumbotron>

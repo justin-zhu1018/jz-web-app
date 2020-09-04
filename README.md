@@ -1,5 +1,5 @@
 ## About the Project
-jz-web-app is my personal website where I practice my full stack development skills! It's definitely not anything too special, but it does have the fundamentals. I was able to include aspects like MongoDB for my site database, deployment to Heroku (public servers), the typical components (navbar, footer, etc.), custom CSS, multi-page routing, and much more. <br /> <br />
+jz-web-app is my personal website where I practice my full stack development skills! It's definitely not anything too special, but it does have the fundamentals. I was able to include aspects like MongoDB for my site database, deployment to Heroku (public servers), the typical components (navbar, footer, etc.), custom CSS, multi-page routing, and much more. <br /> 
 
 I haven't really been working on this as much because school is back in session, but I have been working on other projects that are a bit more for planning out school projects (<a href="https://github.com/justin-zhu1018/mern-google-api-web-app">mern-google-api-web-app</a>). The mern-google-api-web-app is basically my personal website, but with google auth and private routing. So if you like this web app, do check that one out as well!
 
